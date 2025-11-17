@@ -1,0 +1,21 @@
+nav {
+  display: flex; /* deixa os itens ao lado um do outro */
+  justify-content: space-between; /* acrescenta espaço entre eles*/
+  align-items: center; /* faz com que fiequem alinhados a partir das margens*/
+  line-height: 0;
+  padding-block: 20px; /* espaço entre as margens */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 24px; /*espaço entre elementos lupa , explorer e minhas viagens */
+  padding-block: 8px;
+}
+
+/*seleciona o ultimo filho da lista do nav , nesse caso a imagem */
+nav ul li:last-child img {
+  width: 40px;
+  height: 40px;
+}

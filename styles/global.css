@@ -25,3 +25,27 @@ body {
   color: var(--text-color-secundary);
   background-color: var(--background-color);
 }
+
+/* estilizando o explorer e minhas viagens*/
+a {
+  text-decoration: none; /* tira o sublinhado dos links*/
+  color: inherit; /* tira a cor vermelha padrão dos links explorer etc e coloca cor do body que seria  acor mãe  */
+}
+
+/* estiliza conforme passa o mouse em cima*/
+a:hover {
+  color: var(--brand-color); /*puxou a variavel mencianda em root*/
+  text-decoration: underline;
+}
+
+/*criando uma classe container que irá conter as 32px para toda as partes laterais do projeto , como um margem (no html foi puxado essa classe em "nav" */
+.container {
+  padding-inline: 32px; /*colocando 32px apenas nas laterais do corpo topo do projeto) */
+  max-width: 1280px; /* serve para ter um tamanho maximo para quando aumentar e diminuir o zoom da tela */
+  margin-inline: auto; /* siginica que quando der zoom , só ira mexer nos espaços das laterais */
+}
+
+/*chamando a classe do html surface color , para colocar a faixa de cor, fazendo assim, ao aumentar e diminuir o zoom , a cor se mantem estavel*/
+.bg-surface-color {
+  background-color: var(--surface-color);
+}
