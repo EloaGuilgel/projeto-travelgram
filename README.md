@@ -31,7 +31,7 @@ Este projeto foi criado para praticar:
 ## 🌍 Acesse o Projeto
 
 🔗 Clique para acessar o projeto online:  
-**https://eloaguilgel.github.io/perfil-de-viagens/**
+**(https://eloaguilgel.github.io/projeto-travelgram/)**
 
 > Caso o link não abra imediatamente, pode levar alguns minutos após a publicação no GitHub Pages.
 
