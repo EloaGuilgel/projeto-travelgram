@@ -1,6 +1,7 @@
 # ✈️ Perfil de Viagens - Travelgram
 
-![Preview do projeto](ícons/portal.png)
+![Preview do projeto](assets/portal.png)
+
 
 > Projeto desenvolvido como parte da formação Fullstack da Rocketseat, utilizando **HTML5, CSS3 e CSS Grid** para construção de layouts modernos, organizados e responsivos.
 
